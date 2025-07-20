@@ -1,0 +1,472 @@
+-------------------------------------------------------------------------------
+Learning rate:  0.005    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 16.461842
+Epoch 20/100, Loss: 17.744665
+Epoch 30/100, Loss: 17.788996
+Epoch 40/100, Loss: 17.790527
+Epoch 50/100, Loss: 17.790651
+Epoch 60/100, Loss: 17.790651
+Epoch 70/100, Loss: 17.790651
+Epoch 80/100, Loss: 17.790651
+Epoch 90/100, Loss: 17.790651
+Epoch 100/100, Loss: 17.790651
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 16.453756
+Epoch 20/100, Loss: 17.742373
+Epoch 30/100, Loss: 17.810547
+Epoch 40/100, Loss: 17.791292
+Epoch 50/100, Loss: 17.790909
+Epoch 60/100, Loss: 17.790651
+Epoch 70/100, Loss: 17.790781
+Epoch 80/100, Loss: 17.790781
+Epoch 90/100, Loss: 17.790651
+Epoch 100/100, Loss: 17.790651
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 16.461964
+Epoch 20/100, Loss: 17.739189
+Epoch 30/100, Loss: 17.789122
+Epoch 40/100, Loss: 17.790651
+Epoch 50/100, Loss: 17.790651
+Epoch 60/100, Loss: 17.790781
+Epoch 70/100, Loss: 17.790527
+Epoch 80/100, Loss: 17.790527
+Epoch 90/100, Loss: 17.790781
+Epoch 100/100, Loss: 17.790651
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.001    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 763.753418
+Epoch 20/100, Loss: 786.244141
+Epoch 30/100, Loss: 469.183990
+Epoch 40/100, Loss: 730.003479
+Epoch 50/100, Loss: 720.303223
+Epoch 60/100, Loss: 720.866699
+Epoch 70/100, Loss: 730.331177
+Epoch 80/100, Loss: 381.879150
+Epoch 90/100, Loss: 722.764771
+Epoch 100/100, Loss: 40.530247
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 876.671997
+Epoch 20/100, Loss: 724.318298
+Epoch 30/100, Loss: 764.620850
+Epoch 40/100, Loss: 28.579920
+Epoch 50/100, Loss: 726.656738
+Epoch 60/100, Loss: 720.707031
+Epoch 70/100, Loss: 633.511719
+Epoch 80/100, Loss: 720.941711
+Epoch 90/100, Loss: 724.445190
+Epoch 100/100, Loss: 720.251648
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 888.753052
+Epoch 20/100, Loss: 721.051025
+Epoch 30/100, Loss: 502.963013
+Epoch 40/100, Loss: 700.675537
+Epoch 50/100, Loss: 726.471680
+Epoch 60/100, Loss: 720.268066
+Epoch 70/100, Loss: 720.234070
+Epoch 80/100, Loss: 722.070984
+Epoch 90/100, Loss: 720.242615
+Epoch 100/100, Loss: 720.236084
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.0005    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1225.183350
+Epoch 20/100, Loss: 1178.942749
+Epoch 30/100, Loss: 1175.026001
+Epoch 40/100, Loss: 1207.697998
+Epoch 50/100, Loss: 1184.544678
+Epoch 60/100, Loss: 364.808044
+Epoch 70/100, Loss: 469.391144
+Epoch 80/100, Loss: 1351.525024
+Epoch 90/100, Loss: 1333.085449
+Epoch 100/100, Loss: 12.204526
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1226.517090
+Epoch 20/100, Loss: 1176.771362
+Epoch 30/100, Loss: 1175.596802
+Epoch 40/100, Loss: 1188.613281
+Epoch 50/100, Loss: 1176.615356
+Epoch 60/100, Loss: 1175.996094
+Epoch 70/100, Loss: 1149.040771
+Epoch 80/100, Loss: 1196.348633
+Epoch 90/100, Loss: 151.461960
+Epoch 100/100, Loss: 28.470900
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1226.348633
+Epoch 20/100, Loss: 1177.224121
+Epoch 30/100, Loss: 1176.329712
+Epoch 40/100, Loss: 1783.922241
+Epoch 50/100, Loss: 1188.029419
+Epoch 60/100, Loss: 1018.433411
+Epoch 70/100, Loss: 745.683594
+Epoch 80/100, Loss: 1209.160278
+Epoch 90/100, Loss: 1190.762451
+Epoch 100/100, Loss: 1217.914185
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.0001    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 7783.055664
+Epoch 20/100, Loss: 2511.353027
+Epoch 30/100, Loss: 1444.721558
+Epoch 40/100, Loss: 410.554565
+Epoch 50/100, Loss: 25.700253
+Epoch 60/100, Loss: 4.796179
+Epoch 70/100, Loss: 10.009191
+Epoch 80/100, Loss: 19.013905
+Epoch 90/100, Loss: 34.260715
+Epoch 100/100, Loss: 24.037638
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 7852.740234
+Epoch 20/100, Loss: 2530.301514
+Epoch 30/100, Loss: 1415.216187
+Epoch 40/100, Loss: 429.983887
+Epoch 50/100, Loss: 29.061619
+Epoch 60/100, Loss: 4.742243
+Epoch 70/100, Loss: 17.813250
+Epoch 80/100, Loss: 23.654230
+Epoch 90/100, Loss: 18.709826
+Epoch 100/100, Loss: 30.404453
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 7750.811523
+Epoch 20/100, Loss: 2502.675049
+Epoch 30/100, Loss: 1436.790649
+Epoch 40/100, Loss: 394.572144
+Epoch 50/100, Loss: 22.922722
+Epoch 60/100, Loss: 4.597669
+Epoch 70/100, Loss: 7.660899
+Epoch 80/100, Loss: 22.000029
+Epoch 90/100, Loss: 27.398504
+Epoch 100/100, Loss: 39.317749
+
+
+-------------------------------------------------------------------------------
+Learning rate:  5e-05    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 13146.423828
+Epoch 20/100, Loss: 7618.772461
+Epoch 30/100, Loss: 4027.265137
+Epoch 40/100, Loss: 2305.728271
+Epoch 50/100, Loss: 1580.376343
+Epoch 60/100, Loss: 791.574646
+Epoch 70/100, Loss: 316.349335
+Epoch 80/100, Loss: 75.452431
+Epoch 90/100, Loss: 4.108799
+Epoch 100/100, Loss: 4.648878
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 13181.456055
+Epoch 20/100, Loss: 7643.403809
+Epoch 30/100, Loss: 4041.443848
+Epoch 40/100, Loss: 2310.768066
+Epoch 50/100, Loss: 1523.140747
+Epoch 60/100, Loss: 752.738770
+Epoch 70/100, Loss: 296.052551
+Epoch 80/100, Loss: 68.222664
+Epoch 90/100, Loss: 3.420703
+Epoch 100/100, Loss: 3.807319
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 13141.943359
+Epoch 20/100, Loss: 7615.656738
+Epoch 30/100, Loss: 4025.464600
+Epoch 40/100, Loss: 2305.077637
+Epoch 50/100, Loss: 1546.248779
+Epoch 60/100, Loss: 762.925476
+Epoch 70/100, Loss: 299.489471
+Epoch 80/100, Loss: 68.938530
+Epoch 90/100, Loss: 3.114708
+Epoch 100/100, Loss: 4.094454
+
+
+-------------------------------------------------------------------------------
+Learning rate:  1e-05    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 19168.136719
+Epoch 20/100, Loss: 17513.126953
+Epoch 30/100, Loss: 15944.515625
+Epoch 40/100, Loss: 14457.048828
+Epoch 50/100, Loss: 13050.710938
+Epoch 60/100, Loss: 11725.889648
+Epoch 70/100, Loss: 10483.072266
+Epoch 80/100, Loss: 9322.942383
+Epoch 90/100, Loss: 8246.380859
+Epoch 100/100, Loss: 7254.495605
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 19128.615234
+Epoch 20/100, Loss: 17475.722656
+Epoch 30/100, Loss: 15908.991211
+Epoch 40/100, Loss: 14423.420898
+Epoch 50/100, Loss: 13018.987305
+Epoch 60/100, Loss: 11696.078125
+Epoch 70/100, Loss: 10455.219727
+Epoch 80/100, Loss: 9297.024414
+Epoch 90/100, Loss: 8222.393555
+Epoch 100/100, Loss: 7232.497559
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 19140.548828
+Epoch 20/100, Loss: 17487.005859
+Epoch 30/100, Loss: 15919.705078
+Epoch 40/100, Loss: 14433.558594
+Epoch 50/100, Loss: 13028.550781
+Epoch 60/100, Loss: 11705.063477
+Epoch 70/100, Loss: 10463.623047
+Epoch 80/100, Loss: 9304.852539
+Epoch 90/100, Loss: 8229.649414
+Epoch 100/100, Loss: 7239.161133
+
+
+Best learning rate:  0.0005    Loss:  tensor(0.0008, device='cuda:0', grad_fn=<MseLossBackward0>)
+Second best learning rate:  0.0001    Loss:  tensor(0.0009, device='cuda:0', grad_fn=<MseLossBackward0>)
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.0005    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1225.705200
+Epoch 20/100, Loss: 1206.025879
+Epoch 30/100, Loss: 1175.056519
+Epoch 40/100, Loss: 1174.994751
+Epoch 50/100, Loss: 1132.870850
+Epoch 60/100, Loss: 1181.301880
+Epoch 70/100, Loss: 1175.063721
+Epoch 80/100, Loss: 1174.918823
+Epoch 90/100, Loss: 6.176121
+Epoch 100/100, Loss: 1177.022949
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1226.140991
+Epoch 20/100, Loss: 1037.192383
+Epoch 30/100, Loss: 1175.040283
+Epoch 40/100, Loss: 1204.027710
+Epoch 50/100, Loss: 1407.351929
+Epoch 60/100, Loss: 1587.877808
+Epoch 70/100, Loss: 1501.465576
+Epoch 80/100, Loss: 1248.739136
+Epoch 90/100, Loss: 735.567566
+Epoch 100/100, Loss: 861.935913
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1226.804077
+Epoch 20/100, Loss: 1180.739746
+Epoch 30/100, Loss: 1206.563721
+Epoch 40/100, Loss: 938.120972
+Epoch 50/100, Loss: 1107.579712
+Epoch 60/100, Loss: 12.146399
+Epoch 70/100, Loss: 1.798298
+Epoch 80/100, Loss: 28.943983
+Epoch 90/100, Loss: 139.564377
+Epoch 100/100, Loss: 94.382195
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.00046    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1275.347046
+Epoch 20/100, Loss: 1227.120605
+Epoch 30/100, Loss: 1103.355347
+Epoch 40/100, Loss: 156.081650
+Epoch 50/100, Loss: 1539.930908
+Epoch 60/100, Loss: 1219.574951
+Epoch 70/100, Loss: 1251.077759
+Epoch 80/100, Loss: 1505.907471
+Epoch 90/100, Loss: 1223.913696
+Epoch 100/100, Loss: 677.588013
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1274.166748
+Epoch 20/100, Loss: 1263.135254
+Epoch 30/100, Loss: 1229.484009
+Epoch 40/100, Loss: 653.262512
+Epoch 50/100, Loss: 29.711718
+Epoch 60/100, Loss: 87.325684
+Epoch 70/100, Loss: 2.756376
+Epoch 80/100, Loss: 82.015038
+Epoch 90/100, Loss: 102.861572
+Epoch 100/100, Loss: 102.506645
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1275.604248
+Epoch 20/100, Loss: 1350.653809
+Epoch 30/100, Loss: 1221.115234
+Epoch 40/100, Loss: 1144.346313
+Epoch 50/100, Loss: 904.788452
+Epoch 60/100, Loss: 311.718018
+Epoch 70/100, Loss: 42.119659
+Epoch 80/100, Loss: 916.331238
+Epoch 90/100, Loss: 81.008286
+Epoch 100/100, Loss: 114.396866
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.00042    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1328.715576
+Epoch 20/100, Loss: 1260.385010
+Epoch 30/100, Loss: 1262.482788
+Epoch 40/100, Loss: 53.291111
+Epoch 50/100, Loss: 576.383728
+Epoch 60/100, Loss: 19.902536
+Epoch 70/100, Loss: 17.727627
+Epoch 80/100, Loss: 4.914344
+Epoch 90/100, Loss: 7.194249
+Epoch 100/100, Loss: 33.210087
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1328.199097
+Epoch 20/100, Loss: 1288.411011
+Epoch 30/100, Loss: 1342.762207
+Epoch 40/100, Loss: 6.071358
+Epoch 50/100, Loss: 2.664145
+Epoch 60/100, Loss: 25.496323
+Epoch 70/100, Loss: 8.714098
+Epoch 80/100, Loss: 74.524071
+Epoch 90/100, Loss: 90.703445
+Epoch 100/100, Loss: 0.587082
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1327.906982
+Epoch 20/100, Loss: 1265.060913
+Epoch 30/100, Loss: 1400.837524
+Epoch 40/100, Loss: 1258.365601
+Epoch 50/100, Loss: 4.110732
+Epoch 60/100, Loss: 230.508560
+Epoch 70/100, Loss: 0.876985
+Epoch 80/100, Loss: 23.395010
+Epoch 90/100, Loss: 23.195848
+Epoch 100/100, Loss: 79.968750
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.00038    Loop:  3
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1395.719482
+Epoch 20/100, Loss: 1303.724854
+Epoch 30/100, Loss: 350.411346
+Epoch 40/100, Loss: 142.189438
+Epoch 50/100, Loss: 30.443104
+Epoch 60/100, Loss: 0.399536
+Epoch 70/100, Loss: 48.520527
+Epoch 80/100, Loss: 25.442480
+Epoch 90/100, Loss: 23.755743
+Epoch 100/100, Loss: 20.944548
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1393.727417
+Epoch 20/100, Loss: 1326.639160
+Epoch 30/100, Loss: 1036.534424
+Epoch 40/100, Loss: 1107.626831
+Epoch 50/100, Loss: 147.383957
+Epoch 60/100, Loss: 1.058771
+Epoch 70/100, Loss: 38.802216
+Epoch 80/100, Loss: 28.988813
+Epoch 90/100, Loss: 41.796268
+Epoch 100/100, Loss: 19.723011
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([11])) that is different to the input size (torch.Size([11, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Epoch 10/100, Loss: 1396.749512
+Epoch 20/100, Loss: 1391.786987
+Epoch 30/100, Loss: 1340.853271
+Epoch 40/100, Loss: 1657.075439
+Epoch 50/100, Loss: 649.995972
+Epoch 60/100, Loss: 71.674683
+Epoch 70/100, Loss: 49.553257
+Epoch 80/100, Loss: 22.742968
+Epoch 90/100, Loss: 42.719330
+Epoch 100/100, Loss: 30.324707
