@@ -1,0 +1,586 @@
+-------------------------------------------------------------------------------
+Learning rate:  0.00018    Loop:  3
+AMD Time interval  15 Time period:  24
+Batch size:  16 Number of workers:  0 Epochs:  200
+Learning rate scheduler rate:  0.1
+Beta1:  0.95 Beta2:  0.999
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 13.010622
+                  Validation: Epoch 10/200, Loss: 1482.656494
+Training: Epoch 20/200, Loss: 60.870605
+                  Validation: Epoch 20/200, Loss: 1935.245605
+Training: Epoch 30/200, Loss: 1.940250
+                  Validation: Epoch 30/200, Loss: 0.413860
+Training: Epoch 40/200, Loss: 1.486839
+                  Validation: Epoch 40/200, Loss: 0.959424
+Training: Epoch 50/200, Loss: 1.559723
+                  Validation: Epoch 50/200, Loss: 2.318604
+Training: Epoch 60/200, Loss: 1.506096
+                  Validation: Epoch 60/200, Loss: 3.369708
+Training: Epoch 70/200, Loss: 1.543996
+                  Validation: Epoch 70/200, Loss: 4.313173
+Training: Epoch 80/200, Loss: 1.563525
+                  Validation: Epoch 80/200, Loss: 3.925576
+Training: Epoch 90/200, Loss: 1.563223
+                  Validation: Epoch 90/200, Loss: 3.175094
+Training: Epoch 100/200, Loss: 1.560945
+                  Validation: Epoch 100/200, Loss: 2.472085
+Training: Epoch 110/200, Loss: 1.568054
+                  Validation: Epoch 110/200, Loss: 1.899581
+Training: Epoch 120/200, Loss: 1.574375
+                  Validation: Epoch 120/200, Loss: 1.525351
+Training: Epoch 130/200, Loss: 1.574191
+                  Validation: Epoch 130/200, Loss: 1.290582
+Training: Epoch 140/200, Loss: 1.575699
+                  Validation: Epoch 140/200, Loss: 1.121686
+Training: Epoch 150/200, Loss: 1.577408
+                  Validation: Epoch 150/200, Loss: 0.996223
+Training: Epoch 160/200, Loss: 1.579839
+                  Validation: Epoch 160/200, Loss: 0.903647
+Training: Epoch 170/200, Loss: 1.582068
+                  Validation: Epoch 170/200, Loss: 0.844500
+Training: Epoch 180/200, Loss: 1.583720
+                  Validation: Epoch 180/200, Loss: 0.809787
+Training: Epoch 190/200, Loss: 1.586138
+                  Validation: Epoch 190/200, Loss: 0.774206
+Training: Epoch 200/200, Loss: 1.589293
+                  Validation: Epoch 200/200, Loss: 0.738961
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 190.725998
+                  Validation: Epoch 10/200, Loss: 1688.150269
+Training: Epoch 20/200, Loss: 7.373430
+                  Validation: Epoch 20/200, Loss: 1532.004639
+Training: Epoch 30/200, Loss: 1.451876
+                  Validation: Epoch 30/200, Loss: 3.856911
+Training: Epoch 40/200, Loss: 1.467868
+                  Validation: Epoch 40/200, Loss: 8.688738
+Training: Epoch 50/200, Loss: 1.502339
+                  Validation: Epoch 50/200, Loss: 10.631559
+Training: Epoch 60/200, Loss: 1.530321
+                  Validation: Epoch 60/200, Loss: 9.337374
+Training: Epoch 70/200, Loss: 1.564412
+                  Validation: Epoch 70/200, Loss: 7.769872
+Training: Epoch 80/200, Loss: 1.599393
+                  Validation: Epoch 80/200, Loss: 6.781601
+Training: Epoch 90/200, Loss: 1.662654
+                  Validation: Epoch 90/200, Loss: 5.190439
+Training: Epoch 100/200, Loss: 1.651482
+                  Validation: Epoch 100/200, Loss: 3.871978
+Training: Epoch 110/200, Loss: 1.632824
+                  Validation: Epoch 110/200, Loss: 3.028968
+Training: Epoch 120/200, Loss: 1.614316
+                  Validation: Epoch 120/200, Loss: 2.607296
+Training: Epoch 130/200, Loss: 1.578808
+                  Validation: Epoch 130/200, Loss: 2.479406
+Training: Epoch 140/200, Loss: 1.572560
+                  Validation: Epoch 140/200, Loss: 2.354239
+Training: Epoch 150/200, Loss: 1.567829
+                  Validation: Epoch 150/200, Loss: 2.262289
+Training: Epoch 160/200, Loss: 1.564248
+                  Validation: Epoch 160/200, Loss: 2.163982
+Training: Epoch 170/200, Loss: 1.559727
+                  Validation: Epoch 170/200, Loss: 2.017481
+Training: Epoch 180/200, Loss: 1.549193
+                  Validation: Epoch 180/200, Loss: 1.841341
+Training: Epoch 190/200, Loss: 1.540418
+                  Validation: Epoch 190/200, Loss: 1.675061
+Training: Epoch 200/200, Loss: 1.533475
+                  Validation: Epoch 200/200, Loss: 1.548319
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 108.446831
+                  Validation: Epoch 10/200, Loss: 2315.554443
+Training: Epoch 20/200, Loss: 18.307491
+                  Validation: Epoch 20/200, Loss: 1100.815430
+Training: Epoch 30/200, Loss: 63.751602
+                  Validation: Epoch 30/200, Loss: 1993.521729
+Training: Epoch 40/200, Loss: 2.339158
+                  Validation: Epoch 40/200, Loss: 9.351173
+Training: Epoch 50/200, Loss: 1.737010
+                  Validation: Epoch 50/200, Loss: 4.473024
+Training: Epoch 60/200, Loss: 1.611781
+                  Validation: Epoch 60/200, Loss: 3.732264
+Training: Epoch 70/200, Loss: 1.570474
+                  Validation: Epoch 70/200, Loss: 4.859334
+Training: Epoch 80/200, Loss: 1.560007
+                  Validation: Epoch 80/200, Loss: 3.524460
+Training: Epoch 90/200, Loss: 1.558056
+                  Validation: Epoch 90/200, Loss: 2.601063
+Training: Epoch 100/200, Loss: 1.718201
+                  Validation: Epoch 100/200, Loss: 0.154678
+Training: Epoch 110/200, Loss: 1.736141
+                  Validation: Epoch 110/200, Loss: 0.130052
+Training: Epoch 120/200, Loss: 1.739248
+                  Validation: Epoch 120/200, Loss: 0.120378
+Training: Epoch 130/200, Loss: 1.738292
+                  Validation: Epoch 130/200, Loss: 0.116539
+Training: Epoch 140/200, Loss: 1.737472
+                  Validation: Epoch 140/200, Loss: 0.115099
+Training: Epoch 150/200, Loss: 1.737425
+                  Validation: Epoch 150/200, Loss: 0.114716
+Training: Epoch 160/200, Loss: 1.737968
+                  Validation: Epoch 160/200, Loss: 0.114975
+Training: Epoch 170/200, Loss: 1.739091
+                  Validation: Epoch 170/200, Loss: 0.115689
+Training: Epoch 180/200, Loss: 1.740771
+                  Validation: Epoch 180/200, Loss: 0.116688
+Training: Epoch 190/200, Loss: 1.742886
+                  Validation: Epoch 190/200, Loss: 0.118013
+Training: Epoch 200/200, Loss: 1.745152
+                  Validation: Epoch 200/200, Loss: 0.119850
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.00016    Loop:  3
+AMD Time interval  15 Time period:  24
+Batch size:  16 Number of workers:  0 Epochs:  200
+Learning rate scheduler rate:  0.1
+Beta1:  0.95 Beta2:  0.999
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 148.543518
+                  Validation: Epoch 10/200, Loss: 2418.164062
+Training: Epoch 20/200, Loss: 17.610159
+                  Validation: Epoch 20/200, Loss: 1026.318848
+Training: Epoch 30/200, Loss: 23.826685
+                  Validation: Epoch 30/200, Loss: 982.106201
+Training: Epoch 40/200, Loss: 80.034386
+                  Validation: Epoch 40/200, Loss: 2181.135498
+Training: Epoch 50/200, Loss: 1.677199
+                  Validation: Epoch 50/200, Loss: 2.127701
+Training: Epoch 60/200, Loss: 1.675400
+                  Validation: Epoch 60/200, Loss: 3.572557
+Training: Epoch 70/200, Loss: 1.672091
+                  Validation: Epoch 70/200, Loss: 3.755098
+Training: Epoch 80/200, Loss: 1.664358
+                  Validation: Epoch 80/200, Loss: 3.474769
+Training: Epoch 90/200, Loss: 1.657136
+                  Validation: Epoch 90/200, Loss: 3.196884
+Training: Epoch 100/200, Loss: 1.653278
+                  Validation: Epoch 100/200, Loss: 2.829293
+Training: Epoch 110/200, Loss: 1.658069
+                  Validation: Epoch 110/200, Loss: 2.576596
+Training: Epoch 120/200, Loss: 1.667791
+                  Validation: Epoch 120/200, Loss: 2.375014
+Training: Epoch 130/200, Loss: 1.676164
+                  Validation: Epoch 130/200, Loss: 2.196388
+Training: Epoch 140/200, Loss: 1.687934
+                  Validation: Epoch 140/200, Loss: 2.009222
+Training: Epoch 150/200, Loss: 1.698285
+                  Validation: Epoch 150/200, Loss: 1.848587
+Training: Epoch 160/200, Loss: 1.698328
+                  Validation: Epoch 160/200, Loss: 1.753338
+Training: Epoch 170/200, Loss: 1.695532
+                  Validation: Epoch 170/200, Loss: 1.676423
+Training: Epoch 180/200, Loss: 1.697863
+                  Validation: Epoch 180/200, Loss: 1.554468
+Training: Epoch 190/200, Loss: 1.701758
+                  Validation: Epoch 190/200, Loss: 1.430151
+Training: Epoch 200/200, Loss: 1.703531
+                  Validation: Epoch 200/200, Loss: 1.355078
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 126.672607
+                  Validation: Epoch 10/200, Loss: 2245.289551
+Training: Epoch 20/200, Loss: 2.086894
+                  Validation: Epoch 20/200, Loss: 963.554810
+Training: Epoch 30/200, Loss: 120.469704
+                  Validation: Epoch 30/200, Loss: 2189.615967
+Training: Epoch 40/200, Loss: 127.903091
+                  Validation: Epoch 40/200, Loss: 2115.300537
+Training: Epoch 50/200, Loss: 16.511827
+                  Validation: Epoch 50/200, Loss: 303.142761
+Training: Epoch 60/200, Loss: 1.730264
+                  Validation: Epoch 60/200, Loss: 0.071279
+Training: Epoch 70/200, Loss: 1.641104
+                  Validation: Epoch 70/200, Loss: 0.307224
+Training: Epoch 80/200, Loss: 1.675283
+                  Validation: Epoch 80/200, Loss: 0.284336
+Training: Epoch 90/200, Loss: 1.697629
+                  Validation: Epoch 90/200, Loss: 0.249147
+Training: Epoch 100/200, Loss: 1.694682
+                  Validation: Epoch 100/200, Loss: 0.259009
+Training: Epoch 110/200, Loss: 1.688662
+                  Validation: Epoch 110/200, Loss: 0.306925
+Training: Epoch 120/200, Loss: 1.684129
+                  Validation: Epoch 120/200, Loss: 0.374056
+Training: Epoch 130/200, Loss: 1.680885
+                  Validation: Epoch 130/200, Loss: 0.442063
+Training: Epoch 140/200, Loss: 1.678136
+                  Validation: Epoch 140/200, Loss: 0.516947
+Training: Epoch 150/200, Loss: 1.674819
+                  Validation: Epoch 150/200, Loss: 0.578667
+Training: Epoch 160/200, Loss: 1.671582
+                  Validation: Epoch 160/200, Loss: 0.586229
+Training: Epoch 170/200, Loss: 1.669620
+                  Validation: Epoch 170/200, Loss: 0.580091
+Training: Epoch 180/200, Loss: 1.668022
+                  Validation: Epoch 180/200, Loss: 0.593994
+Training: Epoch 190/200, Loss: 1.666989
+                  Validation: Epoch 190/200, Loss: 0.616933
+Training: Epoch 200/200, Loss: 1.804635
+                  Validation: Epoch 200/200, Loss: 0.033337
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 84.914513
+                  Validation: Epoch 10/200, Loss: 2165.520264
+Training: Epoch 20/200, Loss: 86.889458
+                  Validation: Epoch 20/200, Loss: 1966.361694
+Training: Epoch 30/200, Loss: 19.992838
+                  Validation: Epoch 30/200, Loss: 144.752426
+Training: Epoch 40/200, Loss: 10.405767
+                  Validation: Epoch 40/200, Loss: 531.452759
+Training: Epoch 50/200, Loss: 2.151216
+                  Validation: Epoch 50/200, Loss: 0.088479
+Training: Epoch 60/200, Loss: 1.664097
+                  Validation: Epoch 60/200, Loss: 1.335360
+Training: Epoch 70/200, Loss: 1.658340
+                  Validation: Epoch 70/200, Loss: 1.920143
+Training: Epoch 80/200, Loss: 1.659737
+                  Validation: Epoch 80/200, Loss: 1.749508
+Training: Epoch 90/200, Loss: 1.647459
+                  Validation: Epoch 90/200, Loss: 1.385543
+Training: Epoch 100/200, Loss: 1.638824
+                  Validation: Epoch 100/200, Loss: 1.273267
+Training: Epoch 110/200, Loss: 1.630191
+                  Validation: Epoch 110/200, Loss: 1.269928
+Training: Epoch 120/200, Loss: 1.625201
+                  Validation: Epoch 120/200, Loss: 1.271298
+Training: Epoch 130/200, Loss: 1.628217
+                  Validation: Epoch 130/200, Loss: 1.233944
+Training: Epoch 140/200, Loss: 1.638372
+                  Validation: Epoch 140/200, Loss: 1.188399
+Training: Epoch 150/200, Loss: 1.646988
+                  Validation: Epoch 150/200, Loss: 1.137160
+Training: Epoch 160/200, Loss: 1.650640
+                  Validation: Epoch 160/200, Loss: 1.119091
+Training: Epoch 170/200, Loss: 1.651938
+                  Validation: Epoch 170/200, Loss: 1.144599
+Training: Epoch 180/200, Loss: 1.653650
+                  Validation: Epoch 180/200, Loss: 1.170435
+Training: Epoch 190/200, Loss: 1.660571
+                  Validation: Epoch 190/200, Loss: 1.200399
+Training: Epoch 200/200, Loss: 1.669579
+                  Validation: Epoch 200/200, Loss: 1.253027
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.00014    Loop:  3
+AMD Time interval  15 Time period:  24
+Batch size:  16 Number of workers:  0 Epochs:  200
+Learning rate scheduler rate:  0.1
+Beta1:  0.95 Beta2:  0.999
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 99.621513
+                  Validation: Epoch 10/200, Loss: 2207.387695
+Training: Epoch 20/200, Loss: 141.699142
+                  Validation: Epoch 20/200, Loss: 2083.108643
+Training: Epoch 30/200, Loss: 4.058003
+                  Validation: Epoch 30/200, Loss: 378.532806
+Training: Epoch 40/200, Loss: 38.504520
+                  Validation: Epoch 40/200, Loss: 1118.656860
+Training: Epoch 50/200, Loss: 143.033340
+                  Validation: Epoch 50/200, Loss: 1206.452271
+Training: Epoch 60/200, Loss: 2.197813
+                  Validation: Epoch 60/200, Loss: 0.160737
+Training: Epoch 70/200, Loss: 1.653632
+                  Validation: Epoch 70/200, Loss: 1.012849
+Training: Epoch 80/200, Loss: 1.630774
+                  Validation: Epoch 80/200, Loss: 1.016964
+Training: Epoch 90/200, Loss: 1.623779
+                  Validation: Epoch 90/200, Loss: 1.007446
+Training: Epoch 100/200, Loss: 1.621167
+                  Validation: Epoch 100/200, Loss: 1.021810
+Training: Epoch 110/200, Loss: 1.622659
+                  Validation: Epoch 110/200, Loss: 1.060587
+Training: Epoch 120/200, Loss: 1.628933
+                  Validation: Epoch 120/200, Loss: 1.049219
+Training: Epoch 130/200, Loss: 1.635629
+                  Validation: Epoch 130/200, Loss: 1.003732
+Training: Epoch 140/200, Loss: 1.640687
+                  Validation: Epoch 140/200, Loss: 0.966401
+Training: Epoch 150/200, Loss: 1.644409
+                  Validation: Epoch 150/200, Loss: 0.948424
+Training: Epoch 160/200, Loss: 1.647617
+                  Validation: Epoch 160/200, Loss: 0.941230
+Training: Epoch 170/200, Loss: 1.650908
+                  Validation: Epoch 170/200, Loss: 0.940431
+Training: Epoch 180/200, Loss: 1.654015
+                  Validation: Epoch 180/200, Loss: 0.937518
+Training: Epoch 190/200, Loss: 1.656662
+                  Validation: Epoch 190/200, Loss: 0.925939
+Training: Epoch 200/200, Loss: 1.658832
+                  Validation: Epoch 200/200, Loss: 0.913672
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 135.114273
+                  Validation: Epoch 10/200, Loss: 2424.148438
+Training: Epoch 20/200, Loss: 158.003860
+                  Validation: Epoch 20/200, Loss: 2384.082520
+Training: Epoch 30/200, Loss: 109.304626
+                  Validation: Epoch 30/200, Loss: 2287.587646
+Training: Epoch 40/200, Loss: 1.736088
+                  Validation: Epoch 40/200, Loss: 0.123501
+Training: Epoch 50/200, Loss: 1.995057
+                  Validation: Epoch 50/200, Loss: 2.963459
+Training: Epoch 60/200, Loss: 1.639192
+                  Validation: Epoch 60/200, Loss: 5.280211
+Training: Epoch 70/200, Loss: 1.601832
+                  Validation: Epoch 70/200, Loss: 6.163546
+Training: Epoch 80/200, Loss: 1.590568
+                  Validation: Epoch 80/200, Loss: 5.551897
+Training: Epoch 90/200, Loss: 1.572436
+                  Validation: Epoch 90/200, Loss: 4.962152
+Training: Epoch 100/200, Loss: 1.560200
+                  Validation: Epoch 100/200, Loss: 4.544388
+Training: Epoch 110/200, Loss: 1.564799
+                  Validation: Epoch 110/200, Loss: 3.912654
+Training: Epoch 120/200, Loss: 1.569495
+                  Validation: Epoch 120/200, Loss: 3.453135
+Training: Epoch 130/200, Loss: 1.575689
+                  Validation: Epoch 130/200, Loss: 3.104092
+Training: Epoch 140/200, Loss: 1.581436
+                  Validation: Epoch 140/200, Loss: 2.794085
+Training: Epoch 150/200, Loss: 1.586076
+                  Validation: Epoch 150/200, Loss: 2.495012
+Training: Epoch 160/200, Loss: 1.586542
+                  Validation: Epoch 160/200, Loss: 2.223687
+Training: Epoch 170/200, Loss: 1.584852
+                  Validation: Epoch 170/200, Loss: 2.008822
+Training: Epoch 180/200, Loss: 1.582297
+                  Validation: Epoch 180/200, Loss: 1.841313
+Training: Epoch 190/200, Loss: 1.578461
+                  Validation: Epoch 190/200, Loss: 1.719539
+Training: Epoch 200/200, Loss: 1.574240
+                  Validation: Epoch 200/200, Loss: 1.642127
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 53.220364
+                  Validation: Epoch 10/200, Loss: 1704.561890
+Training: Epoch 20/200, Loss: 102.904594
+                  Validation: Epoch 20/200, Loss: 2181.083496
+Training: Epoch 30/200, Loss: 3.773584
+                  Validation: Epoch 30/200, Loss: 1.210435
+Training: Epoch 40/200, Loss: 1.636274
+                  Validation: Epoch 40/200, Loss: 4.261695
+Training: Epoch 50/200, Loss: 1.488224
+                  Validation: Epoch 50/200, Loss: 5.732992
+Training: Epoch 60/200, Loss: 1.553665
+                  Validation: Epoch 60/200, Loss: 7.132532
+Training: Epoch 70/200, Loss: 1.510913
+                  Validation: Epoch 70/200, Loss: 7.478653
+Training: Epoch 80/200, Loss: 1.502242
+                  Validation: Epoch 80/200, Loss: 6.317282
+Training: Epoch 90/200, Loss: 1.496534
+                  Validation: Epoch 90/200, Loss: 5.180121
+Training: Epoch 100/200, Loss: 1.490135
+                  Validation: Epoch 100/200, Loss: 4.627030
+Training: Epoch 110/200, Loss: 1.490856
+                  Validation: Epoch 110/200, Loss: 4.238832
+Training: Epoch 120/200, Loss: 1.495109
+                  Validation: Epoch 120/200, Loss: 3.929168
+Training: Epoch 130/200, Loss: 1.499896
+                  Validation: Epoch 130/200, Loss: 3.673671
+Training: Epoch 140/200, Loss: 1.504092
+                  Validation: Epoch 140/200, Loss: 3.437505
+Training: Epoch 150/200, Loss: 1.507856
+                  Validation: Epoch 150/200, Loss: 3.217826
+Training: Epoch 160/200, Loss: 1.511574
+                  Validation: Epoch 160/200, Loss: 3.005203
+Training: Epoch 170/200, Loss: 1.515126
+                  Validation: Epoch 170/200, Loss: 2.790787
+Training: Epoch 180/200, Loss: 1.518407
+                  Validation: Epoch 180/200, Loss: 2.582411
+Training: Epoch 190/200, Loss: 1.521616
+                  Validation: Epoch 190/200, Loss: 2.390437
+Training: Epoch 200/200, Loss: 1.525027
+                  Validation: Epoch 200/200, Loss: 2.226922
+
+
+-------------------------------------------------------------------------------
+Learning rate:  0.00012    Loop:  3
+AMD Time interval  15 Time period:  24
+Batch size:  16 Number of workers:  0 Epochs:  200
+Learning rate scheduler rate:  0.1
+Beta1:  0.95 Beta2:  0.999
+-------------------------------------------------------------------------------
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 231.603134
+                  Validation: Epoch 10/200, Loss: 2799.424561
+Training: Epoch 20/200, Loss: 1.403222
+                  Validation: Epoch 20/200, Loss: 970.091919
+Training: Epoch 30/200, Loss: 176.458008
+                  Validation: Epoch 30/200, Loss: 1285.581787
+Training: Epoch 40/200, Loss: 1.789006
+                  Validation: Epoch 40/200, Loss: 0.072266
+Training: Epoch 50/200, Loss: 1.617797
+                  Validation: Epoch 50/200, Loss: 0.748435
+Training: Epoch 60/200, Loss: 1.623972
+                  Validation: Epoch 60/200, Loss: 1.454479
+Training: Epoch 70/200, Loss: 1.614037
+                  Validation: Epoch 70/200, Loss: 1.253525
+Training: Epoch 80/200, Loss: 1.598852
+                  Validation: Epoch 80/200, Loss: 1.591144
+Training: Epoch 90/200, Loss: 1.597603
+                  Validation: Epoch 90/200, Loss: 1.825868
+Training: Epoch 100/200, Loss: 1.596391
+                  Validation: Epoch 100/200, Loss: 1.812415
+Training: Epoch 110/200, Loss: 1.597537
+                  Validation: Epoch 110/200, Loss: 1.690570
+Training: Epoch 120/200, Loss: 1.603063
+                  Validation: Epoch 120/200, Loss: 1.569428
+Training: Epoch 130/200, Loss: 1.611366
+                  Validation: Epoch 130/200, Loss: 1.507344
+Training: Epoch 140/200, Loss: 1.619553
+                  Validation: Epoch 140/200, Loss: 1.501992
+Training: Epoch 150/200, Loss: 1.625829
+                  Validation: Epoch 150/200, Loss: 1.535667
+Training: Epoch 160/200, Loss: 1.629854
+                  Validation: Epoch 160/200, Loss: 1.571968
+Training: Epoch 170/200, Loss: 1.632037
+                  Validation: Epoch 170/200, Loss: 1.585873
+Training: Epoch 180/200, Loss: 1.633268
+                  Validation: Epoch 180/200, Loss: 1.574067
+Training: Epoch 190/200, Loss: 1.634331
+                  Validation: Epoch 190/200, Loss: 1.544964
+Training: Epoch 200/200, Loss: 1.635694
+                  Validation: Epoch 200/200, Loss: 1.505190
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 107.399757
+                  Validation: Epoch 10/200, Loss: 2312.084473
+Training: Epoch 20/200, Loss: 8.905002
+                  Validation: Epoch 20/200, Loss: 702.600830
+Training: Epoch 30/200, Loss: 33.537075
+                  Validation: Epoch 30/200, Loss: 1690.041504
+Training: Epoch 40/200, Loss: 3.615501
+                  Validation: Epoch 40/200, Loss: 152.659378
+Training: Epoch 50/200, Loss: 1.791291
+                  Validation: Epoch 50/200, Loss: 0.798566
+Training: Epoch 60/200, Loss: 1.682333
+                  Validation: Epoch 60/200, Loss: 1.024011
+Training: Epoch 70/200, Loss: 1.655177
+                  Validation: Epoch 70/200, Loss: 1.587419
+Training: Epoch 80/200, Loss: 1.665075
+                  Validation: Epoch 80/200, Loss: 1.975675
+Training: Epoch 90/200, Loss: 1.664194
+                  Validation: Epoch 90/200, Loss: 1.847266
+Training: Epoch 100/200, Loss: 1.659334
+                  Validation: Epoch 100/200, Loss: 1.750720
+Training: Epoch 110/200, Loss: 1.654977
+                  Validation: Epoch 110/200, Loss: 1.616015
+Training: Epoch 120/200, Loss: 1.652033
+                  Validation: Epoch 120/200, Loss: 1.483760
+Training: Epoch 130/200, Loss: 1.652549
+                  Validation: Epoch 130/200, Loss: 1.397331
+Training: Epoch 140/200, Loss: 1.656624
+                  Validation: Epoch 140/200, Loss: 1.324598
+Training: Epoch 150/200, Loss: 1.661420
+                  Validation: Epoch 150/200, Loss: 1.247801
+Training: Epoch 160/200, Loss: 1.665912
+                  Validation: Epoch 160/200, Loss: 1.174843
+Training: Epoch 170/200, Loss: 1.670362
+                  Validation: Epoch 170/200, Loss: 1.111253
+Training: Epoch 180/200, Loss: 1.675189
+                  Validation: Epoch 180/200, Loss: 1.064371
+Training: Epoch 190/200, Loss: 1.680496
+                  Validation: Epoch 190/200, Loss: 1.032752
+Training: Epoch 200/200, Loss: 1.686004
+                  Validation: Epoch 200/200, Loss: 1.007880
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([16])) that is different to the input size (torch.Size([16, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([12])) that is different to the input size (torch.Size([12, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+/home/lb/anaconda3/lib/python3.8/site-packages/torch/nn/modules/loss.py:538: UserWarning: Using a target size (torch.Size([5])) that is different to the input size (torch.Size([5, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Training: Epoch 10/200, Loss: 19.665091
+                  Validation: Epoch 10/200, Loss: 1010.457153
+Training: Epoch 20/200, Loss: 1.663564
+                  Validation: Epoch 20/200, Loss: 1091.666016
+Training: Epoch 30/200, Loss: 1.635942
+                  Validation: Epoch 30/200, Loss: 1401.040649
+Training: Epoch 40/200, Loss: 1.889663
+                  Validation: Epoch 40/200, Loss: 212.680527
+Training: Epoch 50/200, Loss: 1.560142
+                  Validation: Epoch 50/200, Loss: 3.963159
+Training: Epoch 60/200, Loss: 1.484185
+                  Validation: Epoch 60/200, Loss: 10.718718
+Training: Epoch 70/200, Loss: 2.387091
+                  Validation: Epoch 70/200, Loss: 0.670371
+Training: Epoch 80/200, Loss: 2.227529
+                  Validation: Epoch 80/200, Loss: 0.134760
+Training: Epoch 90/200, Loss: 1.934173
+                  Validation: Epoch 90/200, Loss: 0.322389
+Training: Epoch 100/200, Loss: 1.971502
+                  Validation: Epoch 100/200, Loss: 0.345933
+Training: Epoch 110/200, Loss: 1.976313
+                  Validation: Epoch 110/200, Loss: 0.324531
+Training: Epoch 120/200, Loss: 1.957939
+                  Validation: Epoch 120/200, Loss: 0.400507
+Training: Epoch 130/200, Loss: 1.948643
+                  Validation: Epoch 130/200, Loss: 0.390225
+Training: Epoch 140/200, Loss: 1.942385
+                  Validation: Epoch 140/200, Loss: 0.330657
+Training: Epoch 150/200, Loss: 1.937761
+                  Validation: Epoch 150/200, Loss: 0.298324
+Training: Epoch 160/200, Loss: 1.912668
+                  Validation: Epoch 160/200, Loss: 0.285922
+Training: Epoch 170/200, Loss: 1.876532
+                  Validation: Epoch 170/200, Loss: 0.274991
+Training: Epoch 180/200, Loss: 1.855781
+                  Validation: Epoch 180/200, Loss: 0.261577
+Training: Epoch 190/200, Loss: 1.866852
+                  Validation: Epoch 190/200, Loss: 0.248942
+Training: Epoch 200/200, Loss: 1.889932
+                  Validation: Epoch 200/200, Loss: 0.238921
